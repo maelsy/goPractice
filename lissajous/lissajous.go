@@ -9,8 +9,8 @@ import (
 	"math/rand"
 	"os"
 )
-var Darkgreen = color.RGBA{0x00, 0x64, 0x00, 0xff}
-var pallete = []color.Color{color.Black, Darkgreen}
+
+var pallete = []color.Color{color.Black, color.RGBA{0x00, 0x64, 0x00, 0xff}}
 
 const (
 	blackIndex = 0
